@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +10,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     color: #EBEBEB;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -22,14 +23,16 @@ header {
 }
 
 #logo {
-    width: 180px;
+    width: 280px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    font-size: 1.5rem;
+    font-style: italic;
 }
 
 #logo_texto {
-    padding: 15px;
+    padding: 10px;
 }
 
 #logo_texto_marca {
