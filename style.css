@@ -65,3 +65,49 @@ header {
     color: #1BB4E8;
 }
 
+/* Estilização do Banner */
+
+.banner__content {
+    display: inline-block;
+    position: relative;
+}
+
+.banner__content-box {
+    width: 450px;
+    height: 250px;
+    background-color: #1a3243e0;
+    position: absolute;
+    top: 220px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__content-box__header h1 {
+    font-style: italic;
+    margin: 20px;
+}
+
+.banner__content-box__info {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.banner__content-box__info-img {
+    margin-right: 15px;
+}
+
+.banner__content-box__info-img img {
+    width: 30px;
+}
+
+.banner__content-box__info-text {
+    font-style: italic;
+}
+
+.banner__content-box__info-text span {
+    color: #C6B07F;
+    font-size: 1.5rem;
+}
