@@ -195,3 +195,17 @@ header {
 .info__content-nossa-frota__text p {
     margin: 20px 0;
 }
+
+footer {
+    margin-top: 50px;
+    height: 75px;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer p {
+    margin-left: 20px;
+    color: #000;
+}
