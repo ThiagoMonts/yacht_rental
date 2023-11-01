@@ -47,14 +47,16 @@ header {
 }
 
 .navbar ul {
-    display: flex;
     list-style: none;
+    display: flex;
+    gap: 25px;
 }
 
 .navbar ul li {
-    padding: 0 20px;
+    display: inline;
     text-transform: uppercase;
 }
+
 
 .navbar ul li a {
     text-decoration: none;
@@ -124,7 +126,7 @@ header {
 .info__content-destinos {
     display: flex;
     width: 510px;
-    height: 420px;
+    height: 500px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -146,7 +148,6 @@ header {
 
 .info__content-destinos__text {
     color: #000;
-    
 }
 
 .info__content-destinos__text h3 {
@@ -156,6 +157,16 @@ header {
 
 .info__content-destinos__text p {
     margin: 20px 0;
+    text-align: justify;
+}
+
+.info__content-destinos__img {
+    display: flex;
+}
+
+.info__content-destinos__img img {
+    margin-top: 10px;
+    width: 510px;
 }
 
 .info__content-nossa-frota {
@@ -194,10 +205,21 @@ header {
 
 .info__content-nossa-frota__text p {
     margin: 20px 0;
+    text-align: justify;
 }
 
+.info__content-nossa-frota__img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 252px;
+}
+
+.info__content-nossa-frota__img img {
+    width: 255px;
+    padding: 10px;
+}
 footer {
-    margin-top: 50px;
+    margin-top: 60px;
     height: 75px;
     background-color: #eaeaea;
     display: flex;
