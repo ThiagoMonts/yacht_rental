@@ -48,7 +48,7 @@ Na pasta "Orientações" encontram-se as imagens que o aluno precisará no decor
 
 ## 🔖 Layout
 
-Você pode acessar o site através [DESSE LINK](https://thiagomonts.github.io/yacht_rental/).
+Você pode acessar o site através [DESTE LINK](https://thiagomonts.github.io/yacht_rental/).
 
 <br>
 
